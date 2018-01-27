@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE306E55201CFD9500F66CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE306E54201CFD9500F66CCB /* AppDelegate.swift */; };
+		AE306E57201CFD9500F66CCB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AE306E56201CFD9500F66CCB /* art.scnassets */; };
+		AE306E59201CFD9500F66CCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE306E58201CFD9500F66CCB /* ViewController.swift */; };
+		AE306E5C201CFD9500F66CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE306E5A201CFD9500F66CCB /* Main.storyboard */; };
+		AE306E5E201CFD9500F66CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE306E5D201CFD9500F66CCB /* Assets.xcassets */; };
+		AE306E61201CFD9500F66CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE306E5F201CFD9500F66CCB /* LaunchScreen.storyboard */; };
+		AE306E6C201CFD9500F66CCB /* BrownHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE306E6B201CFD9500F66CCB /* BrownHacksTests.swift */; };
+		AE306E77201CFD9500F66CCB /* BrownHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE306E76201CFD9500F66CCB /* BrownHacksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE306E68201CFD9500F66CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE306E49201CFD9500F66CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE306E50201CFD9500F66CCB;
+			remoteInfo = BrownHacks;
+		};
+		AE306E73201CFD9500F66CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE306E49201CFD9500F66CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE306E50201CFD9500F66CCB;
+			remoteInfo = BrownHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE306E51201CFD9500F66CCB /* BrownHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE306E54201CFD9500F66CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE306E56201CFD9500F66CCB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AE306E58201CFD9500F66CCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE306E5B201CFD9500F66CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE306E5D201CFD9500F66CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE306E60201CFD9500F66CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE306E62201CFD9500F66CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE306E67201CFD9500F66CCB /* BrownHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE306E6B201CFD9500F66CCB /* BrownHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownHacksTests.swift; sourceTree = "<group>"; };
+		AE306E6D201CFD9500F66CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE306E72201CFD9500F66CCB /* BrownHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE306E76201CFD9500F66CCB /* BrownHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownHacksUITests.swift; sourceTree = "<group>"; };
+		AE306E78201CFD9500F66CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE306E4E201CFD9500F66CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E64201CFD9500F66CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E6F201CFD9500F66CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE306E48201CFD9500F66CCB = {
+			isa = PBXGroup;
+			children = (
+				AE306E53201CFD9500F66CCB /* BrownHacks */,
+				AE306E6A201CFD9500F66CCB /* BrownHacksTests */,
+				AE306E75201CFD9500F66CCB /* BrownHacksUITests */,
+				AE306E52201CFD9500F66CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE306E52201CFD9500F66CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE306E51201CFD9500F66CCB /* BrownHacks.app */,
+				AE306E67201CFD9500F66CCB /* BrownHacksTests.xctest */,
+				AE306E72201CFD9500F66CCB /* BrownHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE306E53201CFD9500F66CCB /* BrownHacks */ = {
+			isa = PBXGroup;
+			children = (
+				AE306E54201CFD9500F66CCB /* AppDelegate.swift */,
+				AE306E56201CFD9500F66CCB /* art.scnassets */,
+				AE306E58201CFD9500F66CCB /* ViewController.swift */,
+				AE306E5A201CFD9500F66CCB /* Main.storyboard */,
+				AE306E5D201CFD9500F66CCB /* Assets.xcassets */,
+				AE306E5F201CFD9500F66CCB /* LaunchScreen.storyboard */,
+				AE306E62201CFD9500F66CCB /* Info.plist */,
+			);
+			path = BrownHacks;
+			sourceTree = "<group>";
+		};
+		AE306E6A201CFD9500F66CCB /* BrownHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE306E6B201CFD9500F66CCB /* BrownHacksTests.swift */,
+				AE306E6D201CFD9500F66CCB /* Info.plist */,
+			);
+			path = BrownHacksTests;
+			sourceTree = "<group>";
+		};
+		AE306E75201CFD9500F66CCB /* BrownHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE306E76201CFD9500F66CCB /* BrownHacksUITests.swift */,
+				AE306E78201CFD9500F66CCB /* Info.plist */,
+			);
+			path = BrownHacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE306E50201CFD9500F66CCB /* BrownHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE306E7B201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacks" */;
+			buildPhases = (
+				AE306E4D201CFD9500F66CCB /* Sources */,
+				AE306E4E201CFD9500F66CCB /* Frameworks */,
+				AE306E4F201CFD9500F66CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrownHacks;
+			productName = BrownHacks;
+			productReference = AE306E51201CFD9500F66CCB /* BrownHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE306E66201CFD9500F66CCB /* BrownHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE306E7E201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacksTests" */;
+			buildPhases = (
+				AE306E63201CFD9500F66CCB /* Sources */,
+				AE306E64201CFD9500F66CCB /* Frameworks */,
+				AE306E65201CFD9500F66CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE306E69201CFD9500F66CCB /* PBXTargetDependency */,
+			);
+			name = BrownHacksTests;
+			productName = BrownHacksTests;
+			productReference = AE306E67201CFD9500F66CCB /* BrownHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE306E71201CFD9500F66CCB /* BrownHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE306E81201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacksUITests" */;
+			buildPhases = (
+				AE306E6E201CFD9500F66CCB /* Sources */,
+				AE306E6F201CFD9500F66CCB /* Frameworks */,
+				AE306E70201CFD9500F66CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE306E74201CFD9500F66CCB /* PBXTargetDependency */,
+			);
+			name = BrownHacksUITests;
+			productName = BrownHacksUITests;
+			productReference = AE306E72201CFD9500F66CCB /* BrownHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE306E49201CFD9500F66CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rebecca Zuo";
+				TargetAttributes = {
+					AE306E50201CFD9500F66CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AE306E66201CFD9500F66CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE306E50201CFD9500F66CCB;
+					};
+					AE306E71201CFD9500F66CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE306E50201CFD9500F66CCB;
+					};
+				};
+			};
+			buildConfigurationList = AE306E4C201CFD9500F66CCB /* Build configuration list for PBXProject "BrownHacks" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE306E48201CFD9500F66CCB;
+			productRefGroup = AE306E52201CFD9500F66CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE306E50201CFD9500F66CCB /* BrownHacks */,
+				AE306E66201CFD9500F66CCB /* BrownHacksTests */,
+				AE306E71201CFD9500F66CCB /* BrownHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE306E4F201CFD9500F66CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE306E57201CFD9500F66CCB /* art.scnassets in Resources */,
+				AE306E61201CFD9500F66CCB /* LaunchScreen.storyboard in Resources */,
+				AE306E5E201CFD9500F66CCB /* Assets.xcassets in Resources */,
+				AE306E5C201CFD9500F66CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E65201CFD9500F66CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E70201CFD9500F66CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE306E4D201CFD9500F66CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE306E59201CFD9500F66CCB /* ViewController.swift in Sources */,
+				AE306E55201CFD9500F66CCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E63201CFD9500F66CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE306E6C201CFD9500F66CCB /* BrownHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE306E6E201CFD9500F66CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE306E77201CFD9500F66CCB /* BrownHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE306E69201CFD9500F66CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE306E50201CFD9500F66CCB /* BrownHacks */;
+			targetProxy = AE306E68201CFD9500F66CCB /* PBXContainerItemProxy */;
+		};
+		AE306E74201CFD9500F66CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE306E50201CFD9500F66CCB /* BrownHacks */;
+			targetProxy = AE306E73201CFD9500F66CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE306E5A201CFD9500F66CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE306E5B201CFD9500F66CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE306E5F201CFD9500F66CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE306E60201CFD9500F66CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE306E79201CFD9500F66CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE306E7A201CFD9500F66CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE306E7C201CFD9500F66CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE306E7D201CFD9500F66CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE306E7F201CFD9500F66CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownHacks.app/BrownHacks";
+			};
+			name = Debug;
+		};
+		AE306E80201CFD9500F66CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownHacks.app/BrownHacks";
+			};
+			name = Release;
+		};
+		AE306E82201CFD9500F66CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrownHacks;
+			};
+			name = Debug;
+		};
+		AE306E83201CFD9500F66CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrownHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebecca-zuo.BrownHacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrownHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE306E4C201CFD9500F66CCB /* Build configuration list for PBXProject "BrownHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE306E79201CFD9500F66CCB /* Debug */,
+				AE306E7A201CFD9500F66CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE306E7B201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE306E7C201CFD9500F66CCB /* Debug */,
+				AE306E7D201CFD9500F66CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE306E7E201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE306E7F201CFD9500F66CCB /* Debug */,
+				AE306E80201CFD9500F66CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE306E81201CFD9500F66CCB /* Build configuration list for PBXNativeTarget "BrownHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE306E82201CFD9500F66CCB /* Debug */,
+				AE306E83201CFD9500F66CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE306E49201CFD9500F66CCB /* Project object */;
+}
